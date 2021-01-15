@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="player.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="saucer.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="asteroid.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entitymanager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="surface.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="asteroid.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="saucer.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="chars.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="shapes.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="entitymanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{240ba227-8e09-4d8f-8b05-cbbb054dc6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{4354dc67-aefe-48d0-a187-03252b67da20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
